@@ -1,0 +1,283 @@
+*{
+    font-family: "Boogaloo",Arial,Tahoma,sans-serif;
+    /* background-image: url(image/pattern.jpg); */
+   
+      
+}
+.boogaloo-regular {
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.background-img {
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+
+
+
+}
+
+.background-img>img {
+    width: 100%;
+  
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+ 
+   
+}
+.list-itams1 {
+    padding-left: 0%;
+    display: flex;
+    gap: 20px;
+}
+
+.list-itams1>ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.list-itams1>ul>li>a {
+    text-decoration: none;
+}
+
+.list-itams1>ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.list-itams2>ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.list-itams2 {
+
+    justify-content: end;
+}
+
+.list-itams2>ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+a:hover {
+    color: brown;
+    font-size: 17px;
+}
+
+
+.list-itams2>ul>li>a {
+    text-decoration: none;
+}
+
+
+
+.Burgerlab-logo {
+    display: flex;
+    justify-items: center;
+    /* margin-bottom: 40px; */
+
+
+}
+
+.Burgerlab-logo>img {
+    width: 50px;
+    display: flex;
+    /* margin: auto; */
+
+}
+
+
+
+
+
+.image-3jpg>img {
+   max-width: 80%;
+   margin-left: 20px;
+
+}
+
+.image-3jpg {
+    width: 50%;
+    
+    
+}
+
+.text-alignment {
+    width: 50%;
+}
+
+.section-first {
+    display: flex;
+}
+
+.labs-alignment {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+
+.Burgers-alignment {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+
+.first-burger {
+    width: 20%;
+    flex-direction: column;
+
+
+    
+
+}
+.second-burger {
+    width: 20%;
+    flex-direction: column;
+
+
+}
+.third-burger {
+    width: 20%;
+    flex-direction: column;
+
+
+}
+.first-burger>img {
+    width: 100%;
+    
+
+}
+.second-burger>img {
+    width: 100%;
+
+}
+.third-burger>img {
+    width: 100%;
+
+}
+
+
+
+/* mcb-section start */
+
+.mcb-section {
+    background-image: url(image/service.jpg);
+    font-size: medium;
+    
+    /* padding-top: 70px; */
+    /* padding-bottom: 60px; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 60px; */
+    overflow: hidden;
+    color: white;
+    margin-top: 30px;
+
+}
+
+
+.image_wrapper1 {
+    margin-top: 20px;
+    width: 25%;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+
+.image_wrapper2 {
+    margin-top: 20px;
+    width: 20%;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+
+.image_wrapper3 {
+    margin-top: 20px;
+    width: 20%;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.mcb-section>img {
+    width: 60%;
+
+}
+
+.icons-alignment {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    
+
+}
+
+.icons-alignment>div>i {
+    margin-top: 20px;
+    color: white;
+    width: 20%;
+}
+
+.footer-copy {
+    color: gray;
+    background-color: black;
+    display: flex;
+    /* position: relative;
+    top: 30px; */
+    gap: 100px;
+    justify-content: space-evenly;
+    
+
+}
+
+.footer-copy>div{
+    align-self: center;
+
+
+
+}
+.up-icon {   
+    display: inline-block;
+    /* text-align: center; */
+
+    
+}
+
+
+
+
+
+
+
+
+
+
