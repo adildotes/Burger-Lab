@@ -1,118 +1,84 @@
-*{
-    font-family: "Boogaloo",Arial,Tahoma,sans-serif;
+/* General Styling */
+* {
+    font-family: "Boogaloo", Arial, Tahoma, sans-serif;
+    margin: 0;
     /* background-image: url(image/pattern.jpg); */
-   
-      
 }
+
 .boogaloo-regular {
     font-family: "Boogaloo", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-
-.background-img {
-    position: relative;
-    bottom: 60px;
-    z-index: -1;
-
-
-
-}
-
-.background-img>img {
-    width: 100%;
-  
 }
 
 .Navbar {
     display: flex;
     justify-content: space-between;
-    padding-right: 20px;
- 
-   
-}
-.list-itams1 {
-    padding-left: 0%;
-    display: flex;
-    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
 }
 
-.list-itams1>ul {
-    display: flex;
-    list-style-type: none;
-    
+.Navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.list-itams1>ul>li>a {
-    text-decoration: none;
+.Navbar li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.list-itams1>ul {
-    display: flex;
-    gap: 20px;
-}
-
-
-.list-itams2>ul {
-    display: flex;
-    list-style-type: none;
+.Burgerlab-logo img {
+    max-width: 80px;
 
 }
 
-.list-itams2 {
+/* Responsive styling */
+@media only screen and (max-width: 768px) {
+    .Navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-    justify-content: end;
+    .list-items1,
+    .list-items2 {
+        margin-top: 20px;
+    }
+
+    .list-items2 {
+        margin-top: 20px;
+        position: relative;
+        bottom: 20px;
+    }
 }
 
-.list-itams2>ul {
-    display: flex;
-    gap: 20px;
+.background-img {
+    position: relative;
+    bottom: 40px;
+    z-index: -1;
+    background-image: url('image/Untitled-1-1-1 (1).jpg');
+    background-size: cover;
+    /* Ensures the background image covers the entire container */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the background image from repeating */
+    width: 100%;
+    /* Sets the width of the container */
+    height: 400px;
+    /* Adjust the height as needed */
 }
-
-
-
-a:hover {
-    color: brown;
-    font-size: 17px;
-}
-
-
-.list-itams2>ul>li>a {
-    text-decoration: none;
-}
-
-
-
-.Burgerlab-logo {
-    display: flex;
-    justify-items: center;
-    /* margin-bottom: 40px; */
-
-
-}
-
-.Burgerlab-logo>img {
-    width: 50px;
-    display: flex;
-    /* margin: auto; */
-
-}
-
-
-
-
 
 .image-3jpg>img {
-   max-width: 80%;
-   margin-left: 20px;
-
+    max-width: 80%;
+    margin-left: 20px;
 }
 
 .image-3jpg {
     width: 50%;
-    
-    
 }
 
 .text-alignment {
@@ -126,9 +92,7 @@ a:hover {
 .labs-alignment {
     text-align: center;
     margin-top: 40px;
-
 }
-
 
 .Burgers-alignment {
     display: flex;
@@ -137,99 +101,38 @@ a:hover {
     justify-content: center;
     text-align: center;
     margin-top: 60px;
-
-
 }
 
-
-.first-burger {
-    width: 20%;
-    flex-direction: column;
-
-
-    
-
-}
-.second-burger {
-    width: 20%;
-    flex-direction: column;
-
-
-}
+.first-burger,
+.second-burger,
 .third-burger {
     width: 20%;
     flex-direction: column;
-
-
 }
-.first-burger>img {
-    width: 100%;
-    
 
-}
-.second-burger>img {
-    width: 100%;
-
-}
+.first-burger>img,
+.second-burger>img,
 .third-burger>img {
     width: 100%;
-
 }
-
-
 
 /* mcb-section start */
 
 .mcb-section {
     background-image: url(image/service.jpg);
     font-size: medium;
-    
-    /* padding-top: 70px; */
-    /* padding-bottom: 60px; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
     display: flex;
     width: 100%;
     gap: 20px;
     justify-content: center;
     text-align: center;
-    /* margin-top: 60px; */
     overflow: hidden;
     color: white;
     margin-top: 30px;
-
-}
-
-
-.image_wrapper1 {
-    margin-top: 20px;
-    width: 25%;
-    flex-direction: column;
-    margin-bottom: 20px;
-
-}
-
-
-.image_wrapper2 {
-    margin-top: 20px;
-    width: 20%;
-    flex-direction: column;
-    margin-bottom: 20px;
-
-}
-
-
-.image_wrapper3 {
-    margin-top: 20px;
-    width: 20%;
-    flex-direction: column;
-    margin-bottom: 20px;
-
 }
 
 .mcb-section>img {
     width: 60%;
-
 }
 
 .icons-alignment {
@@ -237,8 +140,6 @@ a:hover {
     justify-content: center;
     gap: 20px;
     background-color: black;
-    
-
 }
 
 .icons-alignment>div>i {
@@ -247,37 +148,38 @@ a:hover {
     width: 20%;
 }
 
+footer {}
+
 .footer-copy {
     color: gray;
     background-color: black;
     display: flex;
-    /* position: relative;
-    top: 30px; */
     gap: 100px;
     justify-content: space-evenly;
-    
-
 }
 
-.footer-copy>div{
+.footer-copy>div {
     align-self: center;
-
-
-
 }
-.up-icon {   
+
+.up-icon {
     display: inline-block;
-    /* text-align: center; */
+}
 
-    
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x))
 }
 
 
 
-
-
-
-
-
-
-
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%
+}
